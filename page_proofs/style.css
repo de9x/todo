@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.container__header {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: #2E2E2E;
+}
+
+.logotype {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.todo-app {
+    position: relative;
+}
+
+.todo-app__wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+.todo-app__box {
+    width: 700px;
+    min-height: 550px;
+    background: #FFFFFF;
+    border: 2px solid #2E2E2E;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todo-app__list {
+    padding: 10px;
+    min-height: 485px;
+}
+
+.todo-app__item {
+    width: 676px;
+    height: 65px;
+    display: flex;
+    padding: 0 25px;
+    background: #2E2E2E;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.todo-app__manipulation {
+    width: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-app__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.todo-app__add {
+    height: 61px;
+    background: #2E2E2E;
+    border-radius: 0px 0px 12px 12px;
+    padding: 15px 18px;
+}
+
+.todo-app__input {
+    width: 596px;
+    height: 32px;
+    border: none;
+    color: #fff;
+    padding: 8px 10px;
+    background: #1A1A1A;
+}
+
+.todo-app__button {
+    width: 60px;
+    height: 32px;
+    background: #6FE774;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    transform: translateX(-2px);
+}
