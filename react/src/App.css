@@ -1,0 +1,11 @@
+.Container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.Logotype {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+}

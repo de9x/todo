@@ -1,0 +1,12 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: #2E2E2E;
+}
+
+.Container__header {
+    width: 100%;
+}
+

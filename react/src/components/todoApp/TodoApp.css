@@ -1,0 +1,27 @@
+.Todo-app {
+    position: relative;
+}
+
+.Todo-app__wrapper {
+    width: 707px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+.Todo-app__box {
+    height: 550px;
+    background: #FFFFFF;
+    border: 2px solid #2E2E2E;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Todo-app__list {
+    padding: 10px 10px 0px 10px;
+    height: 485px;
+    overflow-y: scroll;
+}

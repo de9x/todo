@@ -1,0 +1,24 @@
+.Todo-app__item {
+    width: 676px;
+    height: 65px;
+    display: flex;
+    padding: 0 25px;
+    background: #2E2E2E;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.Todo-app__buttons {
+    width: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Todo-app__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
